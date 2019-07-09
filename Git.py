@@ -1,0 +1,2 @@
+print('Try Git')
+input()
