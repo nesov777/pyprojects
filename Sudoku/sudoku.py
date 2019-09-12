@@ -46,4 +46,5 @@ def sudoku():
                                         if (sum(a[0]) == 50) and (sum(a[1]) == 50) and (sum(a[2]) == 50) and (sum(a[3]) == 50) and (list(map(sum, (zip(*a))))[0] == 50) and (list(map(sum, (zip(*a))))[1] == 50) and (list(map(sum, (zip(*a))))[2] == 50) and (list(map(sum, (zip(*a))))[3] == 50):
                                             print(a)
                                             return
-sudoku()
+if __name__ == "__main__":
+    sudoku()
